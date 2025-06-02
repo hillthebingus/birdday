@@ -1,0 +1,13 @@
+:root
+{
+	/* Color palette i got */
+	--clr-palette-darkest: hsl(130, 20%, 25%);
+	--clr-palette-darker: hsl(129, 20%, 30%);
+	--clr-palette-dark: hsl(134, 20%, 41%);
+	--clr-palette-dim: hsl(90, 16%, 35%);
+	--clr-palette-light: hsl(108, 16%, 50%);
+	--clr-palette-lighter: hsl(96, 27%, 64%);
+	--clr-palette-hl: hsl(58, 36%, 73%);
+	
+	
+}
