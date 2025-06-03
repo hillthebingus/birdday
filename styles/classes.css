@@ -1,21 +1,39 @@
+/* Wrapper for the catalogue. */
+/*¿reg*/
 .wrapper{
 	width: fit-content;
 	height: fit-content;
 	margin: auto;
+	
+	margin-left: 4rem;
+	margin-right: 4rem;
 }
+/*?reg*/
 
-.catalogue-container{
+/* Styles for the catalogue */
+/*¿reg*/
+.catalogue-container {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-around;
+	box-shadow: 0px 0px 50px var(--clr-palette-darkest);
+	
+	gap: 20px;
+	background-color: var(--clr-palette-darkest);
+	padding: 2rem;
+	border-radius: 10px;
 }
 
 .card {
 	flex-grow: 1;
 	flex-shrink: 1;
+	max-width: 48ch;
 	display: flex;
 	
 	flex-direction: column;
 	
-	padding: 2vw;
+	padding: 1rem;
 	background-color: var(--clr-palette-dark);
 	
 	border-radius: 10px;
@@ -27,7 +45,7 @@
 	border: solid 3px var(--clr-palette-lighter);
 	
 	max-width: 280px;
-	max-height: 240px;
+	max-height: 180px;
 	
 	margin: auto;
 }
@@ -36,6 +54,7 @@
 	text-align: center;
 	font-size: 4rem;
 	margin-block: 0;
+	margin: auto;
 	
 	margin-top: 10px;
 	margin-bottom: 16px;
@@ -45,15 +64,19 @@
 
 
 .card p {
-	flex-shrink: 1;
 	padding: 1rem;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Roboto Slab", serif;
+	font-weight: 400;
 	margin-block: 0;
 	
 	background-color: var(--clr-palette-darkest);
 	color: var(--clr-palette-hl);
+	margin: auto;
 	
 	border-radius: 8px;
 	max-width: 32ch;
 }
+
+/*?reg*/
+
 
