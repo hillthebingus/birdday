@@ -3,6 +3,10 @@
 .wrapper{
 	width: fit-content;
 	height: fit-content;
+	padding: 2rem;
+	background-color: var(--clr-palette-darkest);
+	box-shadow: 0px 0px 50px var(--clr-palette-darkest);
+	border-radius: 10px;
 	margin: auto;
 	
 	margin-left: 4rem;
@@ -16,13 +20,10 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	justify-content: space-around;
-	box-shadow: 0px 0px 50px var(--clr-palette-darkest);
+	justify-content: space-evenly;
+	width: 100%;
 	
 	gap: 20px;
-	background-color: var(--clr-palette-darkest);
-	padding: 2rem;
-	border-radius: 10px;
 }
 
 .card {
@@ -66,6 +67,7 @@
 .card p {
 	padding: 1rem;
 	font-family: "Roboto Slab", serif;
+	font-size: 1rem;
 	font-weight: 400;
 	margin-block: 0;
 	
@@ -75,6 +77,28 @@
 	
 	border-radius: 8px;
 	max-width: 32ch;
+}
+
+@media ( width <= 970px ) {
+	.catalogue-container {
+		flex-direction: column;
+	}	
+	
+	.card p {
+		font-size: 0.9rem;
+	}
+	
+	.card h3 {
+		font-size: 1.8rem;
+	}
+	
+	.card img {
+		max-width: 120px;
+	}
+	
+	.wrapper {
+		margin: auto;
+	}
 }
 
 /*?reg*/
