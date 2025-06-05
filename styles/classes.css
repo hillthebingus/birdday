@@ -78,6 +78,7 @@
 	
 	border-radius: 8px;
 	max-width: 32ch;
+	text-align: center;
 }
 
 @media ( width <= 970px ) {
@@ -261,7 +262,6 @@
 }
 
 /*?reg*/
-
 
 /* For underlining */
 /*¿reg*/
