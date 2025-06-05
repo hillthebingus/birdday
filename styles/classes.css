@@ -110,7 +110,6 @@
 /*¿reg*/
 .title-container {
 	position: relative;
-	/* isolation: isolate; */
 	
 	height: 80vh;
 	max-height: 500px;
