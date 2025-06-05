@@ -3,4 +3,8 @@ html
 	background-color: var(--clr-palette-darker);
 }
 
+body {
+	margin: 0;
+}
+
 
